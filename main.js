@@ -1,6 +1,10 @@
-
-
-
+let messi = 5;
+for (messi = 2;messi < 10; messi++){
+    if (messi == 7){
+        continue;
+    }
+    document.write(messi + "<br>")
+}
 
 
 
